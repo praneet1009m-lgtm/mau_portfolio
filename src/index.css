@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family: 'font1';
+  src: url('../fonts/1/Mirevante.otf') 
+}
+@font-face{
+  font-family: 'font2';
+  src: url('../fonts/2/Happy\ Ground.ttf') 
+}
+@font-face{
+  font-family: 'font3';
+  src: url('../fonts/3/Smooth\ Valentine.otf') 
+}
+@font-face{
+  font-family: 'font4';
+  src: url('../fonts/4/Bubble\ Original.otf') 
+}
+@font-face{
+  font-family: 'font5';
+  src: url('../fonts/5/Binose\ Extrude_Demo.otf') 
+} 
+@font-face{
+  font-family: 'font6';
+  src: url('../fonts/6/Gorgeous\ Teacher.otf') 
+}
+@font-face{
+  font-family: 'font7';
+  src: url('../fonts/7/Thick\ Stylish.otf') 
+}
+@font-face{
+  font-family: 'font8';
+  src: url('..fonts/8/Autumn\ Daydream.otf') 
+}
+@font-face{
+  font-family: 'font9';
+  src: url('../fonts/9/Paduloki\ Personal\ Use\ Only.ttf') 
+}
+@font-face{
+  font-family: 'font10';
+  src: url('../fonts/10/NibloraRegular_demo.otf') 
+}
+
