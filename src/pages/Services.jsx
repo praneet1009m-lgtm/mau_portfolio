@@ -1,7 +1,7 @@
   import React from 'react'
   import book from "../components/services/book.png";
   import cam from "../components/services/cam.png";
-  import mau from "../components/services/12.png";
+ 
   import tag from "../components/services/tag.png";
   import reels from "../components/services/reels.png";
   import brand from "../components/services/brand.png";
@@ -25,20 +25,18 @@
   import star from "../components/about/star.png";
   import plane from "../components/about/plane.png";
   import heart from "../components/about/heart.png";
+  import mau from "../components/services/mau.png";
 
 
 
   const services = () => {
     return (
       <div className="overflow-hidden relative h-screen w-screen bg-orange-200">
-        <div className="group transition-transform duration-300 hover:scale-105   ">
-          <img src={book} alt="Book" className='absolute top-[100px] left-[30px] w-[28vw] group transition-transform duration-300 z-20   ' />
-          <img src={mau} alt="Mau" className='absolute top-[320px] left-[175px] w-[11vw] group transition-transform duration-300 -rotate-9  ' />
+        <div className="group transition-transform duration-300 hover:scale-105 ">
+          <img src={mau} alt="Mau" className='absolute top-[160px] left-[0px] w-[30vw] group transition-transform duration-300 z-10   ' />
         </div>
-        <div>
-          <img src={cam} alt="Cam" className='absolute top-[560px] left-[30px] w-[22vw] group transition-transform duration-300 z-30 -rotate-2 hover:scale-105 ' />
-        </div>
-        <div className="group transition-transform duration-300 hover:scale-105   ">
+        
+        <div className="group transition-transform duration-300 hover:scale-105">
           <img src={tag} alt="Tag" className='absolute -top-[110px] right-[320px] w-[39vw] group transition-transform duration-300 z-20   ' />
         </div>
         <div>
@@ -61,7 +59,7 @@
         <div className='absolute -top-[260px] -left-[450px] w-[800px] h-auto z-20 -rotate-18 group transition-transform duration-300  hover:scale-105'>
             <img src={page1} alt="Page" className='w-full h-full object-cover' />
         </div>
-        <div className='absolute -bottom-[80px] -left-[500px] w-[800px] h-auto z-20 rotate-50 group transition-transform duration-300  hover:scale-105'>
+        <div className='absolute -bottom-[170px] -left-[400px] w-[1000px] h-[500px] z-20 rotate-30 group transition-transform duration-300  hover:scale-105'>
             <img src={page2} alt="Page" className='w-full h-full object-cover' />
         </div>
         <div className='absolute -bottom-[200px] -right-[10px] w-[850px] h-auto z-20 -rotate-4 group transition-transform duration-300  hover:scale-105'>
