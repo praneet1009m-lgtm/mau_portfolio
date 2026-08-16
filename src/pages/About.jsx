@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import frame from "../components/about/frame.png";
-import mau from "../components/about/6.jpeg";
+import mau from "../components/about/15.png";
 import page1 from "../components/about/page1.png";
 import page2 from "../components/about/page2.png";
 import cam from "../components/about/cam.png";
@@ -37,7 +37,7 @@ const About = () => {
           <div className='absolute -top-[260px] -left-[450px] w-[800px] h-auto z-20 -rotate-18 group transition-transform duration-300  hover:scale-105'>
             <img src={page1} alt="Page" className='w-full h-full object-cover' />
           </div>
-          <div className='absolute top-[200px] -left-[20px] w-[420px] h-auto z-20 -rotate-12 group transition-transform duration-300  hover:scale-105'>
+          <div className='absolute top-[150px] -left-[20px] w-[420px] h-auto z-20 -rotate-12 group transition-transform duration-300  hover:scale-105'>
             <img src={cam} alt="Cam" className='w-full h-full object-cover' />  
           </div>
           <div >

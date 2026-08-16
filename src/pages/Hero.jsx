@@ -34,6 +34,8 @@ import aboutlink from "../components/hero/aboutlink.png";
 
 import serviceslink from "../components/hero/serviceslink.png";
 
+import contactlink from "../components/hero/contactlink.png";
+
 
 
 gsap.registerPlugin(useGSAP);
@@ -212,19 +214,25 @@ useGSAP(
 
         </div>
 
-        <a href="/about">
+        <Link to="/about">
 
           <img src={aboutlink} alt="Arrow" className='absolute top-[00px] right-[200px] w-[130px] h-auto group transition-transform duration-300 z-50  hover:scale-130 ' />
 
-        </a>
+        </Link>
 
         
 
-        <a href="/services">
+        <Link to="/services">
 
           <img src={serviceslink} alt="Arrow" className='absolute top-[00px] right-[50px] w-[130px] h-auto group transition-transform duration-300 z-50  hover:scale-130 ' />
 
-        </a>
+        </Link>
+
+        <Link to="/contact">
+
+          <img src={contactlink} alt="Arrow" className='absolute top-[00px] right-[350px] w-[130px] h-auto group transition-transform duration-300 z-50  hover:scale-130 ' />
+
+        </Link>
 
       </div>
       
