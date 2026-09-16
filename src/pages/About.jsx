@@ -1,23 +1,23 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import frame from "../components/about/frame.png";
-import mau from "../components/about/15.png";
-import page1 from "../components/about/page1.png";
-import page2 from "../components/about/page2.png";
-import cam from "../components/about/cam.png";
-import tag1 from "../components/about/tag1.png";
-import tag2 from "../components/about/tag2.png";
-import tape from "../components/hero/tape.png";
-import card from "../components/about/card.png";
-import flower1 from "../components/about/flower1.png";
-import flower2 from "../components/about/flower2.png";
-import crown from "../components/about/crown.png";
-import double_arrow from "../components/about/double_arrow.png";
-import star from "../components/about/star.png";
-import plane from "../components/about/plane.png";  
-import home from "../components/about/home.png";
-import heart from "../components/about/heart.png";
-import pointer from "../components/about/pointer.png";
+import frame from "../components/about/frame.webp";
+import mau from "../components/about/15.webp";
+import page1 from "../components/about/page1.webp";
+import page2 from "../components/about/page2.webp";
+import cam from "../components/about/cam.webp";
+import tag1 from "../components/about/tag1.webp";
+import tag2 from "../components/about/tag2.webp";
+import tape from "../components/hero/tape.webp";
+import card from "../components/about/card.webp";
+import flower1 from "../components/about/flower1.webp";
+import flower2 from "../components/about/flower2.webp";
+import crown from "../components/about/crown.webp";
+import double_arrow from "../components/about/double_arrow.webp";
+import star from "../components/about/star.webp";
+import plane from "../components/about/plane.webp";  
+import home from "../components/about/home.webp";
+import heart from "../components/about/heart.webp";
+import pointer from "../components/about/pointer.webp";
 
 const About = () => {
   return (

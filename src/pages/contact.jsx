@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import backdrop from "../components/contact/backdrop.png";
-import cardboard from "../components/contact/cardboard.png";
-import available_for from "../components/contact/available_for.png";
-import contact_me from "../components/contact/contact_me.png";
-import insta from "../components/contact/insta.png";
-import lets_connect from "../components/contact/lets_connect.png";
-import mail from "../components/contact/mail.png";
-import page from "../components/contact/page.png";
-import response_time from "../components/contact/response_time.png";
-import seal from "../components/contact/seal.png";
-import send_letter from "../components/contact/send_letter.png";
-import telephone from "../components/contact/telephone.png";
-import youtube from "../components/contact/youtube.png";
-import home from "../components/about/home.png";
-import pointer from "../components/about/pointer.png";
+import backdrop from "../components/contact/backdrop.webp";
+import cardboard from "../components/contact/cardboard.webp";
+import available_for from "../components/contact/available_for.webp";
+import contact_me from "../components/contact/contact_me.webp";
+import insta from "../components/contact/insta.webp";
+import lets_connect from "../components/contact/lets_connect.webp";
+import mail from "../components/contact/mail.webp";
+import page from "../components/contact/page.webp";
+import response_time from "../components/contact/response_time.webp";
+import seal from "../components/contact/seal.webp";
+import send_letter from "../components/contact/send_letter.webp";
+import telephone from "../components/contact/telephone.webp";
+import youtube from "../components/contact/youtube.webp";
+import home from "../components/about/home.webp";
+import pointer from "../components/about/pointer.webp";
 
 const Contact = () => {
   const [form, setForm] = useState({

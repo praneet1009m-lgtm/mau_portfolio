@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import music from "../assets/music/BackgroundMusic.mp3";
-import { Link } from "react-router-dom";
 
 const BackgroundMusic = () => {
   const audioRef = useRef(null);
@@ -62,7 +61,7 @@ const BackgroundMusic = () => {
 
   return (
     <>
-      <audio ref={audioRef} src={music} />
+      <audio ref={audioRef} src={music} preload="none" />
 
       <button
         onClick={toggleMusic}

@@ -1,31 +1,27 @@
   import React from 'react'
-  import book from "../components/services/book.png";
-  import cam from "../components/services/cam.png";
- 
-  import tag from "../components/services/tag.png";
-  import reels from "../components/services/reels.png";
-  import brand from "../components/services/brand.png";
-  import coffee from "../components/services/coffee.png";
-  import fashion from "../components/services/fashion.png";
-  import flower from "../components/services/flowers.png";
-  import food from "../components/services/food.png";
-  import lifestyle from "../components/services/lifestyle.png";
-  import ugc from "../components/services/ugc.png";
-  import tech from "../components/services/tech.png";
-  import tag1 from "../components/services/tag1.png";
-  import review from "../components/services/review.png";
-  import stories from "../components/services/stories.png";
-  import sponsored from "../components/services/sponsored.png";
-  import pen from "../components/services/pen.png";
-  import page1 from "../components/about/page1.png";
-  import page2 from "../components/about/page2.png";
-  import home from "../components/about/home.png";
-  import pointer from "../components/about/pointer.png";
-  import crown from "../components/about/crown.png";
-  import star from "../components/about/star.png";
-  import plane from "../components/about/plane.png";
-  import heart from "../components/about/heart.png";
-  import mau from "../components/services/mau.png";
+  import tag from "../components/services/tag.webp";
+  import reels from "../components/services/reels.webp";
+  import brand from "../components/services/brand.webp";
+  import coffee from "../components/services/coffee.webp";
+  import fashion from "../components/services/fashion.webp";
+  import flower from "../components/services/flowers.webp";
+  import food from "../components/services/food.webp";
+  import lifestyle from "../components/services/lifestyle.webp";
+  import ugc from "../components/services/ugc.webp";
+  import tech from "../components/services/tech.webp";
+  import tag1 from "../components/services/tag1.webp";
+  import review from "../components/services/review.webp";
+  import stories from "../components/services/stories.webp";
+  import sponsored from "../components/services/sponsored.webp";
+  import pen from "../components/services/pen.webp";
+  import page1 from "../components/about/page1.webp";
+  import page2 from "../components/about/page2.webp";
+  import home from "../components/about/home.webp";
+  import pointer from "../components/about/pointer.webp";
+  import crown from "../components/about/crown.webp";
+  import star from "../components/about/star.webp";
+  import plane from "../components/about/plane.webp";
+  import mau from "../components/services/mau.webp";
 
 
 

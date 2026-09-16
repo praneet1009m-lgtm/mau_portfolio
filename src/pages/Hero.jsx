@@ -1,22 +1,22 @@
-import heroPic from "../components/hero/hero_pic.png";
+import heroPic from "../components/hero/hero_pic.webp";
 
-import frame from "../components/hero/frame.png";
+import frame from "../components/hero/frame.webp";
 
-import film from "../components/hero/film1.png";
+import film from "../components/hero/film1.webp";
 
 import video from "../components/hero/vid.mp4";
 
-import crown from "../components/hero/crown.png";
+import crown from "../components/hero/crown.webp";
 
-import note_top from "../components/hero/note_top.png";
+import note_top from "../components/hero/note_top.webp";
 
-import note_bottom from "../components/hero/note_bottom.png";
+import note_bottom from "../components/hero/note_bottom.webp";
 
-import plane from "../components/hero/plane.png";
+import plane from "../components/hero/plane.webp";
 
-import arrow from "../components/hero/arrow.png";
+import arrow from "../components/hero/arrow.webp";
 
-import tape from "../components/hero/tape.png";
+import tape from "../components/hero/tape.webp";
 
 import React, { useRef } from "react";
 
@@ -24,17 +24,17 @@ import { gsap } from "gsap";
 
 import { useGSAP } from "@gsap/react";
 
-import star from "../components/about/star.png";
+import star from "../components/about/star.webp";
 
-import heart from "../components/about/heart.png";
+import heart from "../components/about/heart.webp";
 
 import { Link } from "react-router-dom";
 
-import aboutlink from "../components/hero/aboutlink.png";
+import aboutlink from "../components/hero/aboutlink.webp";
 
-import serviceslink from "../components/hero/serviceslink.png";
+import serviceslink from "../components/hero/serviceslink.webp";
 
-import contactlink from "../components/hero/contactlink.png";
+import contactlink from "../components/hero/contactlink.webp";
 
 
 
