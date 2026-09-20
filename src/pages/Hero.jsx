@@ -1,5 +1,7 @@
 import heroPic from "../components/hero/hero_pic.webp";
 
+import frame from "../components/hero/frame.webp";
+
 import film from "../components/hero/film1.webp";
 
 import video from "../components/hero/vid.mp4";
@@ -128,6 +130,8 @@ useGSAP(
 
 
         <div ref={frameRef} className=" rotate-5 transition-transform duration-300 hover:-rotate-4 hover:scale-105 flex flex-col">
+
+          <img src={frame} alt="Frame" className=" absolute top-[40px] left-[35px] w-[450px] h-auto z-20 pointer-events-none select-none"/>
 
           <img src={film} alt="Film" className=" absolute w-[228px] top-[69px] left-[137px] "/>
 
