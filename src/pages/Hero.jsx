@@ -1,7 +1,5 @@
 import heroPic from "../components/hero/hero_pic.webp";
 
-import frame from "../components/hero/frame.webp";
-
 import film from "../components/hero/film1.webp";
 
 import video from "../components/hero/vid.mp4";
@@ -103,7 +101,6 @@ useGSAP(
         <img src={crown} alt="" className="absolute left-1/2 top-3 w-28 -translate-x-1/2 rotate-12" />
         <div className="relative mt-8 h-[290px] w-[210px]">
           <img src={heroPic} alt="Mansi" fetchPriority="high" className="absolute inset-0 h-full w-full object-contain drop-shadow-md" />
-          <img src={frame} alt="" className="pointer-events-none absolute inset-0 h-full w-full object-contain" />
         </div>
         <h1 className="mt-3 font-[font9] text-3xl font-bold">Hello, I&apos;m Mansi ✿</h1>
         <p className="mt-4 font-[font1] text-4xl leading-tight">Collecting Moments,<br />Creating Memories.</p>
@@ -131,8 +128,6 @@ useGSAP(
 
 
         <div ref={frameRef} className=" rotate-5 transition-transform duration-300 hover:-rotate-4 hover:scale-105 flex flex-col">
-
-          <img src={frame} alt="Frame" className=" absolute top-[40px] left-[35px] w-[450px] h-auto z-20 pointer-events-none select-none"/>
 
           <img src={film} alt="Film" className=" absolute w-[228px] top-[69px] left-[137px] "/>
 
