@@ -27,7 +27,17 @@
 
   const services = () => {
     return (
-      <div className="overflow-hidden relative h-screen w-screen bg-orange-200">
+      <>
+      <main className="min-h-screen overflow-hidden bg-orange-200 px-5 py-7 text-[#4a3426] md:hidden">
+        <a href="/" className="inline-block rounded-full border border-[#a88255] px-4 py-2 font-[font10] text-lg">← Home</a>
+        <section className="mx-auto max-w-md text-center">
+          <img src={mau} alt="Mansi" className="mx-auto mt-4 w-52" /><img src={tag} alt="Services" className="mx-auto -mt-12 w-80" />
+          <p className="mt-1 font-[font2] text-xl font-semibold leading-snug">Helping brands tell their story through authentic, engaging and relatable content. ♡</p>
+          <div className="mt-8 grid grid-cols-2 gap-4">{[[reels,"Reels"],[ugc,"UGC"],[sponsored,"Sponsored"],[brand,"Brand collaborations"],[review,"Reviews"],[stories,"Stories"],[fashion,"Fashion"],[lifestyle,"Lifestyle"],[food,"Food"],[tech,"Tech"]].map(([image,label]) => <article key={label} className="rounded-3xl bg-orange-100 p-2 shadow-sm"><img src={image} alt={label} loading="lazy" className="w-full" /><p className="pb-1 font-[font10] text-lg">{label}</p></article>)}</div>
+          <a href="/contact" className="my-8 inline-block rounded-full border border-[#a88255] px-5 py-2 font-[font10] text-xl">Work with me</a>
+        </section>
+      </main>
+      <div className="hidden relative h-screen w-screen overflow-hidden bg-orange-200 md:block">
         <div className="group transition-transform duration-300 hover:scale-105 ">
           <img src={mau} alt="Mau" className='absolute top-[160px] left-[0px] w-[30vw] group transition-transform duration-300 z-10   ' />
         </div>
@@ -84,6 +94,7 @@
         </div>
       </div>
       </div>
+      </>
     )
   }
 
