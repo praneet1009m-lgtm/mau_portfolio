@@ -25,7 +25,7 @@ const About = () => {
     <main className="min-h-screen overflow-hidden bg-orange-200 px-5 py-7 text-[#3f2e25] md:hidden">
       <Link to="/" className="inline-block rounded-full border border-[#a88255] px-4 py-2 font-[font10] text-lg">← Home</Link>
       <section className="mx-auto mt-5 max-w-md text-center">
-        <div className="relative mx-auto h-64 w-64"><img src={mau} alt="Mansi" className="absolute inset-5 h-[216px] w-[216px] object-cover" /><img src={frame} alt="" className="absolute inset-0 h-full w-full" /></div>
+        <div className="relative mx-auto h-[310px] w-[240px]"><img src={mau} alt="Mansi" className="absolute inset-0 h-full w-full object-contain" /><img src={frame} alt="" className="absolute inset-0 h-full w-full object-contain" /></div>
         <img src={tag1} alt="About Mansi" className="mx-auto mt-4 w-72" />
         <h1 className="mt-5 font-[font2] text-3xl">Hello, I&apos;m Mansi ✿</h1><div className="mx-auto mt-3 h-1 w-40 rounded-full bg-[#c48a5a]" />
         <p className="mt-6 font-[font7] text-xl leading-relaxed">I’m an engineering student and a lifestyle creator who loves turning everyday moments into meaningful stories. Through my content, I share my journey, experiences, and creativity in the most authentic way possible.</p>
