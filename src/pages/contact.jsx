@@ -66,7 +66,23 @@ Thank you!
   };
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden">
+    <>
+    <main className="min-h-screen bg-orange-200 px-5 py-7 text-[#4b3426] md:hidden">
+      <Link to="/" className="inline-block rounded-full border border-[#a88255] px-4 py-2 font-[font10] text-lg">← Home</Link>
+      <section className="mx-auto max-w-md text-center">
+        <img src={contact_me} alt="Contact me" className="mx-auto mt-3 w-64" />
+        <p className="mt-2 font-[font2] text-xl">Let&apos;s make something meaningful together.</p>
+        <form onSubmit={handleSubmit} className="mt-7 rounded-3xl bg-[#f8e1bf] p-6 text-left shadow-md">
+          <label className="mb-4 block font-[font10] text-xl">Your Name<input name="name" value={form.name} onChange={handleChange} required className="mt-1 block w-full border-b border-[#8c6b58] bg-transparent p-2 font-sans text-base outline-none" /></label>
+          <label className="mb-4 block font-[font10] text-xl">Your Email<input name="email" type="email" value={form.email} onChange={handleChange} required className="mt-1 block w-full border-b border-[#8c6b58] bg-transparent p-2 font-sans text-base outline-none" /></label>
+          <label className="mb-4 block font-[font10] text-xl">Brand / Company<input name="brand" value={form.brand} onChange={handleChange} className="mt-1 block w-full border-b border-[#8c6b58] bg-transparent p-2 font-sans text-base outline-none" /></label>
+          <label className="block font-[font10] text-xl">Tell me about your idea...<textarea name="message" value={form.message} onChange={handleChange} required rows="5" className="mt-1 block w-full resize-none rounded-lg border border-[#8c6b58] bg-transparent p-2 font-sans text-base outline-none" /></label>
+          <button type="submit" className="mt-6 w-full rounded-full bg-[#a88255] px-5 py-3 font-[font10] text-xl text-white">Send letter</button>
+        </form>
+        <div className="my-7 flex justify-center gap-5 font-[font10] text-xl underline"><a href="https://www.instagram.com/mansiooforsuree">Instagram</a><a href="https://www.youtube.com/@MansiMauu">YouTube</a></div>
+      </section>
+    </main>
+    <div className="hidden relative h-screen w-screen overflow-hidden md:block">
 
       {/* BACKDROP */}
       <img
@@ -292,6 +308,7 @@ Thank you!
       
 
     </div>
+    </>
   );
 };
 

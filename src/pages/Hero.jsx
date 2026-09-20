@@ -98,7 +98,29 @@ useGSAP(
 
   return (
 
-    <div className="flex justify-center items-center h-screen bg-orange-300">
+    <>
+      <main className="min-h-screen overflow-hidden bg-orange-300 px-4 py-5 text-[#3f2e25] md:hidden">
+        <div className="relative mx-auto flex min-h-[calc(100vh-2.5rem)] max-w-md flex-col items-center overflow-hidden rounded-[2.5rem] bg-orange-200 px-6 pb-8 pt-10 text-center shadow-sm">
+          <img src={crown} alt="" className="absolute left-1/2 top-3 w-28 -translate-x-1/2 rotate-12" />
+          <img src={heroPic} alt="Mansi" fetchPriority="high" className="relative mt-8 h-56 w-56 rounded-full object-cover shadow-lg" />
+          <img src={frame} alt="" className="pointer-events-none absolute top-20 h-64 w-64" />
+          <h1 className="mt-7 font-[font9] text-3xl font-bold">Hello, I&apos;m Mansi ✿</h1>
+          <p className="mt-4 font-[font1] text-4xl leading-tight">Collecting Moments,<br />Creating Memories.</p>
+          <p className="mt-5 font-[font2] text-xl leading-snug">Sharing everyday stories through creativity, curiosity and meaningful moments. Welcome to <span className="font-semibold text-[#9c6842]">The Mau Tales.</span></p>
+          <p className="mt-5 rounded-full border border-[#a88255] px-4 py-2 font-[font10] text-lg">Engineering student · Lifestyle creator</p>
+          <nav aria-label="Main navigation" className="mt-7 grid w-full grid-cols-3 gap-2 font-[font10] text-lg">
+            <Link to="/about" className="rounded-full border border-[#a88255] px-2 py-2">About</Link>
+            <Link to="/services" className="rounded-full border border-[#a88255] px-2 py-2">Work</Link>
+            <Link to="/contact" className="rounded-full border border-[#a88255] px-2 py-2">Contact</Link>
+          </nav>
+          <div className="mt-4 flex gap-3 font-[font10] text-lg underline">
+            <a href="https://www.youtube.com/@MansiMauu">YouTube</a>
+            <a href="https://www.instagram.com/mansiooforsuree">Instagram</a>
+          </div>
+        </div>
+      </main>
+
+    <div className="hidden h-screen items-center justify-center bg-orange-300 md:flex">
 
       <div className="relative w-[95%] h-[92%] bg-orange-200 rounded-[50px] overflow-hidden">
 
@@ -238,6 +260,7 @@ useGSAP(
       
 
     </div>
+    </>
 
   );
 
